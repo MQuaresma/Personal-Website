@@ -1,0 +1,13 @@
+.navbar {
+    background-color:transparent;
+    transition: all 400ms;
+    border: 1px solid transparent;
+}
+
+a {
+    color: white;
+}
+
+.scrolled_nav{
+    background-color: rgba(255, 255, 255, 1);
+}

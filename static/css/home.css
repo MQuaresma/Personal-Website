@@ -28,16 +28,18 @@ body, html{
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-radius: 5%;
+    background-color: rgb(251, 250, 250);
 }
 
 .profile_pic {
     border-radius: 50%;
-}
-
-.question {
-    font-weight: bold;
+    height: 200px;
+    float:right;
 }
 
 .qa{
     padding: 20px;
+    text-align: justify;
+    max-width: 68%;
 }
