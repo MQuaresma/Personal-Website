@@ -1,0 +1,43 @@
+.welcome_div{
+    background-image: url("../images/empty-road.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.border{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.who_am_i {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile_pic {
+    border-radius: 50%;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.qa{
+    padding: 20px;
+}
