@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Personal Website implemented using express js and bootstrap",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MQuaresma/Personal-Website.git"
+  },
+  "author": "MiguelQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MQuaresma/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/MQuaresma/Personal-Website#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
