@@ -1,0 +1,11 @@
+.footer {
+    background-color: grey;
+    min-height: 100px;
+    min-width: 100px;;
+}
+
+.presence_icon {
+    max-width: 10px;
+    max-height: 10px;
+    border-radius: 50%;
+}

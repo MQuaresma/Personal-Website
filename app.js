@@ -8,8 +8,12 @@ app.get('/', (req,res)=>{
     res.render('index');
 });
 
-app.get('/projects', (req, res)=>{
-    res.render('full/projects/index');
+app.get('/computersci', (req, res)=>{
+    res.render('full/computersci/index');
+});
+
+app.get('/eletronics', (req, res)=>{
+    res.render('full/eletronics/index');
 });
 
 app.get('/sports', (req, res)=>{
