@@ -1,11 +1,19 @@
-.footer {
-    background-color: grey;
+.presence_icons {
+    background-color: black;
     min-height: 100px;
-    min-width: 100px;;
+    min-width: 100px;
+    text-align: center;
+}
+.fab {
+    margin: 50px;
+    font-size: 30px;
 }
 
-.presence_icon {
-    max-width: 10px;
-    max-height: 10px;
-    border-radius: 50%;
+.fa-strava {
+}
+
+.fa-twitter{
+}
+
+.fa-github {
 }
