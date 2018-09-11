@@ -1,5 +1,14 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
 .welcome_div{
-    background-image: url("../images/empty-road.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../images/home-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -10,19 +19,6 @@
     background-color: black;
     color: white;
     padding: 10px 10px 10px 10px;
-}
-
-body, html{
-    height: 100%;
-    margin: 0;
-}
-
-.who_am_i {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: black;
 }
 
 .description {
