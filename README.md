@@ -1,6 +1,6 @@
 # Personal Website
-Personal website implemented using expressJS as middleware for the nodeJS backend.
-Bootstrap used for the front-end.
+Personal website implemented using ExpressJS as middleware for the NodeJS backend.
+Bootstrap is used for the front-end.
 
 ## Set up
 Change to root directory
@@ -10,5 +10,8 @@ Open your browser on **localhost:8080**
 ### Structure
 (add project structure here)
 
-## Preview
-(add preview here)
+## Features
+- [ ] Template for projects/eletronic posts
+- [ ] Template for sports posts
+- [ ] Allow for posts to be written in Markdown
+- [ ] Post creation pipeline
