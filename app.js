@@ -24,6 +24,6 @@ app.get('/contact', (req, res)=>{
     res.render('full/contact/index');
 });
 
-app.get('/api', (req, res) => res.send("API in construction..."));
+app.get('/api', (req, res) => res.send("API in development..."));
 
 app.listen(8080, () => console.log('Listening on port 8080!'));
