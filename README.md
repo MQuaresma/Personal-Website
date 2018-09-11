@@ -25,6 +25,6 @@ Personal website/blog used as a portofolio and developed with the aim of learnin
 * [Bootstrap](https://getbootstrap.com/) - Framework for designing web/mobile applications
 
 ## License
-Licensed under the MIT License, see [LICENSE.md](LICENSE.md) for more details.
+Licensed under the MIT License, see [LICENSE.md](LICENSE) for more details.
 
 ## Acknowledgments
