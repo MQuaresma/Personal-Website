@@ -1,13 +1,24 @@
 .navbar {
     background-color:transparent;
+    color: white;
     transition: all 400ms;
     border: 1px solid transparent;
 }
 
 a {
     color: white;
+    transition: all 400ms;
+}
+
+a:hover{
+    color: black;
 }
 
 .scrolled_nav{
     background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+.scrolled {
+    color: black;
 }
