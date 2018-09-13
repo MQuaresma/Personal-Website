@@ -12,6 +12,10 @@ app.get('/computersci', (req, res)=>{
     res.render('full/computersci/index');
 });
 
+app.get('/computersci/sokoban', (req, res)=>{
+    res.render('full/computersci/sokoban/index');
+});
+
 app.get('/eletronics', (req, res)=>{
     res.render('full/eletronics/index');
 });
