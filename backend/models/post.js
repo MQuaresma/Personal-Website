@@ -8,4 +8,4 @@ var postSchema = new Schema({
     tags: [ String ]
 })
 
-var post = mongoose.model('Post', postSchema)
+module.exports = mongoose.model('Post', postSchema);

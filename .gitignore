@@ -3,6 +3,6 @@
 **/._**
 
 ## Dev Environment
-node_modules/**
+**/node_modules/**
 .vscode/**
 **~

@@ -7,8 +7,12 @@
   </head>
   <body>
     <%- include(includePrefix + 'partial/navbar'); %>
-    
-    
+
+    <ul>
+        <% result.forEach(function(post){ %>
+           <%= return "<li>" %>
+        <% }); %>
+    </ul>
 
 
     <%- include(includePrefix + 'partial/footer'); %>

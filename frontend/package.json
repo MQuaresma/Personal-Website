@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "frontend for personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MQuaresma/Personal-Website.git"
+  },
+  "keywords": [
+    "vuejs",
+    "frontend",
+    "boostrap",
+    "html",
+    "css"
+  ],
+  "author": "Miguel Quaresma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MQuaresma/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/MQuaresma/Personal-Website#readme"
+}

@@ -1,7 +1,7 @@
 {
-  "name": "personal-website",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Personal Website implemented using express js and bootstrap",
+  "description": "personal website server-side logic",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,16 +11,22 @@
     "type": "git",
     "url": "git+https://github.com/MQuaresma/Personal-Website.git"
   },
-  "author": "MiguelQ",
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "api",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Miguel Quaresma",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MQuaresma/Personal-Website/issues"
   },
   "homepage": "https://github.com/MQuaresma/Personal-Website#readme",
   "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "mongoose": "^5.6.10",
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.19.1"
   }
 }
