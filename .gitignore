@@ -2,5 +2,7 @@
 **/.DS_Store
 **/._**
 
-## 
+## Dev Environment
 node_modules/**
+.vscode/**
+**~
