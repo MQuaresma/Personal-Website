@@ -1,0 +1,25 @@
+<% var includePrefix="../../"; %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <%- include(includePrefix + 'includes'); %>
+      <link rel="stylesheet" type="text/css" href="css/home.css"/>
+  </head>
+  <body>    
+    <%- include(includePrefix + 'partial/navbar'); %>
+    
+    <div class="welcome_div container-fluid">
+            <h1><span class="border">Miguel Quaresma</span></h1>
+            <h4><span class="border">Computer Engineering Student, Trail Runner/Cyclist, Hacker/Tinkerer</span></h4>
+    </div>
+
+    <div class="current_projects container-fluid">
+
+    </div>
+
+    <%- include(includePrefix + 'partial/footer'); %>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/includes/bootstrap.min.js"></script>
+  </body>
+</html>
