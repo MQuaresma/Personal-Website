@@ -1,5 +1,5 @@
 # Personal Website
-Personal website/blog used as a portofolio and developed with the aim of learning HTML & CSS and playing with some Javascript frameworks.
+Personal website/blog used as a portofolio and developed with the aim of learning full stack development.
 
 ## Set up
 
@@ -15,14 +15,19 @@ Personal website/blog used as a portofolio and developed with the aim of learnin
 
 ## Features
 - [ ] Template for projects/eletronic posts
-- [ ] Template for sports posts
 - [ ] Allow for posts to be written in Markdown
 - [ ] Post creation pipeline
 
-## Built with
-* [ExpressJS](https://expressjs.com/) - Middleware web-framework
-* [EJS](ejs.co) - Templating language for generating HTML via JS
-* [Bootstrap](https://getbootstrap.com/) - Framework for designing web/mobile applications
+## [Backend](backend) built with
+* [ExpressJS](https://expressjs.com/)
+* [NodeJS](http://nodejs.org)
+* [Mongoose](http://mongoosejs.com)
+
+
+## [Frontend](frontend) built with
+* [Bootstrap](https://getbootstrap.com/)
+* [VueJS](https://vuejs.org)
+
 
 ## License
 Licensed under the MIT License, see [LICENSE.md](LICENSE) for more details.
