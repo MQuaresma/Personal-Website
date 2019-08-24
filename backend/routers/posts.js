@@ -6,7 +6,6 @@ router.get('/list', function(req, res){
     posts
         .getPosts()
         .then(data => {
-            console.log(data);
             res.jsonp(data);
         }).catch(error => res.status(500).jsonp(error));
 });

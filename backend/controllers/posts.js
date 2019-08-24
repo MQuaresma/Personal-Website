@@ -8,7 +8,6 @@ PostsController.getPosts = async () => {
         procPosts = []
 
         rawPosts.forEach(post => {
-            console.log("Here");
             procPosts.push({ title: post.title, body: post.body });
         });
 
