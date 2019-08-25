@@ -14,7 +14,7 @@ db.on('error', console.error.bind(console, 'connection error:', ));
 
 db.on('open', function(){
     app.use(express.json());
-    
+    app.use(express.urlencoded({ extended: true }));
     app.use('/posts', posts);
     app.use('/projects', projects);
 
