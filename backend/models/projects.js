@@ -9,4 +9,4 @@ var projectSchema = new Schema({
     tags: [ String ]
 })
 
-var post = mongoose.model('Project', postSchema)
+module.exports = mongoose.model('Project', projectSchema)
